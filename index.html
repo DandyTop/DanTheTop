@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>MainPage</title>
+    <link rel="shortcut icon" href="Images/favicon.png" type="image/png">
+    <!-- дополнительный вариант <link rel="icon" href="Images/favicon.png" type="image/png"> -->
+    <!-- поля - внешнике отступы = margin -->
+    <!-- внутренние отступы = padding -->
+    <!-- p = абзац -->
+    <!-- a = ссылка, href = адрес ссылки -->
+        <style>
+            body{
+                font-family: Arial;
+                font-size: 18px;
+                background-image: url(Textures/KristalDarkTheme.png);
+                color: #949DB0;
+            }
+
+            p,h2,h3{
+              padding-left: 20px;
+              padding-right: 20px;
+            }
+
+
+            a{
+              text-decoration: none;
+              color: #1E4F4F;
+            }
+
+            img{
+              transform: scale(1);
+              transition: 0.5s all;
+            }
+
+            img:hover{
+              transform: scale(1.2);
+            }
+
+            #frame{
+              width: 75%;
+              margin:0 auto;
+            }
+
+            #header{
+                background-color: #2E333E;
+                /* border-bottom: 1px solid #ccc; */
+                height: 80px;
+            }
+
+            menu{
+              list-style: none;
+              margin: 0 auto;
+              margin-top: 10px;
+              margin-bottom: 10px;
+              width: inherit;
+            }
+
+            /*nav{
+              width: inherit; /* 90%; */
+              /* height: 50px;
+              background-color: #D5E4E4; */
+              /* border: 1px solid black; */
+              /* margin: 0 auto;
+              margin-top: 10px;
+              margin-bottom: 10px;
+            } */
+
+            #block{
+                background-color: #22242B;
+                margin-bottom: 10px;
+            }
+
+            #menu_side{
+                float: left;
+                width: 150px;
+                background-color: #D5E4E4;
+                /* padding: 0 auto; */
+            }
+
+            #menu_side a:hover{
+              color: #6EA7A7;
+            }
+
+            #main{
+                margin-top: 10px;
+                background-color: #292E39;
+                border-left: 1px solid #0D1425;
+                margin-left: 150px;
+                padding: 10px;
+            }
+            #footer{
+                list-style: none;
+                border-top: 1px solid #0C1322;
+                background-color: #242935;
+                height: 150px;
+            }
+
+            #footer p{
+              padding-left: 2em;
+            }
+
+            #footer_contacts li{
+              padding-left: 2em;
+            }
+
+            #forImagesPosition{
+              padding-left: 2em;
+            }
+
+            #forImagesPosition li{
+              display: inline-block;
+              padding-right: 1em;
+            }
+
+            .title{
+            	font-size: 36px;
+            	padding-top: 15px;
+            	text-align: center;
+            }
+
+            .main-menu{
+              display: block;
+              margin: 0 auto;
+            }
+
+            .two menu{
+              background: #D5E4E4;
+              overflow: hidden;
+              padding: 0;
+            }
+
+            .two li{
+              float: right;
+            }
+
+            .two a{
+              display: block;
+              padding: 1em;
+              transition: .5s linear;
+            }
+
+            .two a:hover{
+              background: #f7f7f7;
+              font-size: 20px;
+              color: #6EA7A7;
+            }
+
+            .img-center{
+              /* display: block; */
+              /* margin-left: 10px; */
+              padding-top: 10px;
+              padding-bottom: 10px;
+              /* padding-left: 2em; */
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id = "frame">
+          <div id="header">
+              <div class = "title">Site for app-ads.txt</div>
+          </div>
+
+          <!-- <nav></nav> -->
+
+          <!-- <div class = "main-menu two">
+            <menu> -->
+              <!-- <li><a href="#footer_contacts">Контакты</a></li>
+              <li><a href="AboutSite.html">О сайте</a></li>
+              <li><a href="Photo.html">Фото</a></li>
+              <li><a href="Media.html">Медиа</a></li>
+              <li><a href="Blog.html">Блог</a></li>
+              <li><a href="index.html">Главная</a></li> -->
+            <!-- </menu>
+          </div> -->
+
+          <div id="block">
+              <div id="menu_side">
+                  <!-- <ul>
+                      <li><a href="index.html">Главная</a></li>
+                      <li><a href="Blog.html">Блог</a></li>
+                      <li><a href="Media.html">Медиа</a></li>
+                      <li><a href="Photo.html">Фото</a></li>
+                      <li><a href="AboutSite.html">О сайте</a></li>
+                      <li><a href="#footer_contacts">Контакты</a></li>
+                  </ul> -->
+              </div>
+
+              <div id="main">
+                  <!-- <h2>Главная (рыба-текст)</h2>
+                  <h3>Новости недели.</h3> -->
+                  <p>
+                    a link to file(.txt) will be here 
+                  </p>
+              </div>
+            </div>
+          <div id="footer">
+            <!-- <div id="forImagesPosition">
+              <li><a href = "https://vk.com" target = "_blank"><img class = "img-center" src = "Images/VK.png" width = 30px height = 19.4px alt="Ссылка на ВК"></a></li>
+              <li><a href = "https://twitter.com" target = "_blank"><img class = "img-center" src = "Images/twitter.png" width = 26px height = 26px alt="Ссылка на Twitter"></a></li>
+            </div> -->
+              <!-- twitter.png -->
+            <!-- <div id="footer_contacts">
+              <li>Номер телефона: +7(999)777-77-77</li>
+              <li>Электронная почта: example@email.ru</li>
+            </div> -->
+            <!-- <p>Copyright © MySyte_Maket.com, 2022</p> -->
+          </div>
+      </div>
+    </body>
+</html>
